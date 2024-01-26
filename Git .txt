@@ -1,0 +1,10 @@
+Git 
+
+ for Git configuration (only for first time)
+
+git config --global user.name "Jebin Tom"
+git config --global user.name "Jebin Tom"
+
+Creating a new git project
+
+git init (.git is created)
