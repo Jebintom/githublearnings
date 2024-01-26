@@ -2,9 +2,52 @@ Git
 
  for Git configuration (only for first time)
 
-git config --global user.name "Jebin Tom"
-git config --global user.name "Jebin Tom"
+* git config --global user.name "Jebin Tom"
+* git config --global user.name "Jebin Tom"
 
 Creating a new git project
 
-git init (.git is created)
+* git init (.git is created)
+
+show the changes made to git
+
+* git status
+
+marking these changes to be included in the next commit.
+
+* git  add . or git add filename
+
+
+ create a new commit in your Git repository with the provided commit message
+
+* git commit -m "initial commit"  // initial commit is the provided commit message
+
+to know on which branch we are is given by
+
+* git log
+
+to go back to the previously done commit 
+
+*  git checkout commit number
+  eg : git checkout 854cf3d0647c4fc619be99c6a24ec4b24b54b342
+
+to go to the last commited file
+
+ * master will remains on the latest commit only head changes head will moves to working directories
+ * git checkout 'master'
+
+to create new branch
+
+ * git branch branchname
+
+to know which branch we are currently working 
+
+* git branch
+
+to know the changes we made to 2 branches (compare)
+
+* git diff
+
+to delete the contents from previous commit 
+
+* git stash
